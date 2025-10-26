@@ -1,34 +1,11 @@
 {
   "name": "discord-auth-api",
-  "version": "2.0.0",
-  "description": "Discord authentication serverless API functions",
+  "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build step required for serverless functions'",
-    "deploy": "vercel --prod",
-    "test": "node --experimental-modules test/api.test.js"
-  },
   "dependencies": {
-    "@supabase/supabase-js": "^2.38.5",
-    "jsonwebtoken": "^9.0.2",
-    "crypto": "^1.0.1"
-  },
-  "devDependencies": {
-    "@vercel/node": "^3.0.12",
-    "vercel": "^32.7.2"
+    "jsonwebtoken": "^9.0.2"
   },
   "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": [
-    "discord",
-    "oauth2", 
-    "authentication",
-    "serverless",
-    "vercel",
-    "supabase"
-  ],
-  "author": "Discord Auth System",
-  "license": "MIT"
+    "node": "18.x"
+  }
 }
